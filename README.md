@@ -1,10 +1,10 @@
 
-# Golang-ChatGPT3.5-linebot-Render
-# A Golang ChatGPT/GPT3.5 turbo api linebot project, quickly built on the platform Render
+# Golang-DALEE2-linebot-Render
+# A Golang DALEE2 linebot project, quickly built on the platform Render
 
 
-### [繁體中文](https://github.com/pyfbsdk59/Golang-ChatGPT3.5-linebot-Render/blob/main/README_tw.md)<br>
-### [日本語](https://github.com/pyfbsdk59/Golang-ChatGPT3.5-linebot-Render/blob/main/README_jp.md)
+### [繁體中文](https://github.com/pyfbsdk59/Golang-DALEE2-linebot-Render/blob/main/README_tw.md)<br>
+### [日本語](https://github.com/pyfbsdk59/Golang-DALEE2-linebot-Render/blob/main/README_jp.md)
 
 
 #### 1. This project refers to the following ones and official docs below.
@@ -17,7 +17,7 @@ https://github.com/kkdai/LineBotTemplate
 
 
 
-#### 3. Four environment variables must be set in Render's Environment Variables in this project, namely OPENAI_TOKEN and OPENAI_MAXTOKENS, which are OPENAI's api key and the upper limit of the token number of the answer text (the more you set, the more text of the answer you get, but if you exceed the free quota, you will spend more money. It can be set around 200-400 at the beginning), and then there are two other environment variables CHANNEL_SECRET and CHANNEL_TOKEN of line. It may take some time to start deploying after setting. After success, copy your own URL to the Line developer webpage to set the Webhook URL. For example, 
+#### 3. 3 environment variables must be set in Render's Environment Variables in this project, namely OPENAI_TOKEN, which are OPENAI's api key, and then there are two other environment variables CHANNEL_SECRET and CHANNEL_TOKEN of line. It may take some time to start deploying after setting. After success, copy your own URL to the Line developer webpage to set the Webhook URL. For example, 
 
 https://xxx.onrender.com/callback
 
